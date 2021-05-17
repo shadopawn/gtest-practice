@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 
-set(This GTestPracticetests)
+set(This ExampleTests)
 
 set(Sources
     ExampleTests.cpp
@@ -9,7 +9,7 @@ set(Sources
 add_executable(${This} ${Sources})
 target_link_libraries(${This} PUBLIC
     gtest_main
-    Example
+    GTestPractice
 )
 
 add_test(
