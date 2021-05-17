@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 
-set(This GTest-Practice)
+set(This GTestPractice)
 
 project(${This} C CXX)
 
