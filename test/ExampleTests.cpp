@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
 
 TEST(ExampleTests, DemonstateGTestMacros){
-    ASSERT_TRUE(true);
+    EXPECT_EQ(true, true);
 }
