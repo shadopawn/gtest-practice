@@ -6,13 +6,13 @@ TEST(ExampleTests, MAC){
     int x = 42;
     int y = 16;
     int sum = 100;
-    int expectedNewSum = sum + x * y;
+    int expected = sum + x * y;
     EXPECT_EQ(
-        expectedNewSum,
+        expected,
         MAC(x, y, sum)
     );
     EXPECT_EQ(
-        expectedNewSum,
+        expected,
         sum
     );
 }
