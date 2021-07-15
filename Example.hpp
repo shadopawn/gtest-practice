@@ -3,4 +3,6 @@
 
 int MAC(int x, int y, int &sum);
 
+int sum(int firstNumber, int secondNumber);
+
 #endif // EXAMPLE_HPP

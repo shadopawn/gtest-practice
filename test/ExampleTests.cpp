@@ -16,3 +16,13 @@ TEST(ExampleTests, MAC){
         sum
     );
 }
+
+TEST(ExampleTests, sum){
+    int a = 42;
+    int b = 16;
+    int expectedSum = a + b;
+    EXPECT_EQ(
+        expectedSum,
+        sum(a, b)
+    );
+}
