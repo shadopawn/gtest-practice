@@ -5,4 +5,4 @@
 - [GoogleTest](https://github.com/google/googletest)
 
 ## Guides
-[Video Tutorial](https://www.youtube.com/watch?v=Lp1ifh9TuFI&ab_channel=rhymu8354)
+- [Introduction to Google Test and CMake](https://www.youtube.com/watch?v=Lp1ifh9TuFI&ab_channel=rhymu8354)
